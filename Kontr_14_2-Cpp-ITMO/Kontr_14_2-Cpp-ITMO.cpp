@@ -11,18 +11,19 @@ using namespace std;
 
 // (const) T&, (const) string&, (const) auto& v - & для передачи из main массивов других типов
 // data_valuess Контейнер (в бинарном виде), для печати
-// camma - Разделитель элементов (string)
+// d_v - элементы кортежа
+// separator - разделитель элементов (string)
 template <typename T>
-void Print( T& data_values, string& comma) {
+void Print( T& data_values, string& separator) {
     int i = 0;
-    for (auto& v : data_values) {
+    for (auto& d_v : data_values) {
         if ( i != 0 ){
-            cout << comma;
+            cout << separator;
         }
         else {
             cout << "{";
         }
-        cout << v;
+        cout << d_v;
         if (i == size(data_values) - 1) {
             cout << "};" << endl;
         }
