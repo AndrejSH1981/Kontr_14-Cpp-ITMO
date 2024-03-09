@@ -11,7 +11,7 @@ using namespace std;
 
 // (const) T&, (const) string&, (const) auto& v - & для передачи из main массивов других типов
 // data_valuess Контейнер (в бинарном виде), для печати
-// d_v - элементы кортежа
+// d_v - элементы
 // separator - разделитель элементов (string)
 template <typename T>
 void Print( T& data_values, string& separator) {
