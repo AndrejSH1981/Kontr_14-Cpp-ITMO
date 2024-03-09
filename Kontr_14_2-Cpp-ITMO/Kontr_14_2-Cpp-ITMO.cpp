@@ -9,7 +9,7 @@
 using namespace std;
 
 
-// (const) T&, (const) string&, (const) auto& v - & для передачи из main других разеых типов массивов ещё
+// (const) T&, (const) string&, (const) auto& v - & для передачи из main массивов других типов
 // data_valuess Контейнер (в бинарном виде), для печати
 // camma - Разделитель элементов (string)
 template <typename T>
